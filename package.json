@@ -1,0 +1,36 @@
+{
+  "name": "test-app-snowpack",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "snowpack dev",
+    "build": "snowpack build",
+    "test": "web-test-runner \"src/**/*.test.js\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "browserslist": [
+    "> 1%",
+    "last 2 versions"
+  ],
+  "devDependencies": {
+    "@snowpack/plugin-babel": "^2.1.7",
+    "@snowpack/plugin-dotenv": "^2.2.0",
+    "@snowpack/plugin-optimize": "^0.2.13",
+    "@snowpack/plugin-sass": "^1.4.0",
+    "@snowpack/plugin-svelte": "^3.7.0",
+    "autoprefixer": "^10.4.2",
+    "babel-plugin-transform-remove-console": "^6.9.4",
+    "lodash": "^4.17.21",
+    "postcss": "^8.4.5",
+    "prettier": "^2.5.1",
+    "prettier-plugin-svelte": "^2.6.0",
+    "snowpack": "^3.8.8",
+    "sortablejs": "^1.14.0",
+    "svelte": "^3.46.1",
+    "svelte-preprocess": "^4.10.1",
+    "uuid": "^8.3.2"
+  }
+}
